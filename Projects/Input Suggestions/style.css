@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(0deg, #fd297a, #9424f0);
+}
+
+form {
+  border: 2px solid red;
+  width: 400px;
+}
+
+.input {
+  padding: 1rem 0.5em;
+  width: 100%;
+  /* margin-bottom: 10px; */
+  background-color: aqua;
+  outline: none;
+  border: none;
+}
+
+ul {
+  max-height: 300px;
+  border: 2px solid blue;
+  overflow-y: scroll;
+}
+
+li {
+  list-style: none;
+  /* margin-bottom: 10px; */
+  padding: 0.3rem 0.5em;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/94ab8cc6fe.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body>
+    <div class="music-container">
+      <div class="img-container">
+        <img class="img" src="./assets/images/song1.png" alt="" srcset="" />
+      </div>
+
+      <audio class="audio" src="./assets/musics/song1.mp3"></audio>
+
+      <h1 class="title">Title</h1>
+      <div class="controller-div">
+        <div class="controller">
+          <!-- <input type="range" value="30" class="controller-input" /> -->
+          <div class="controller-music"></div>
+        </div>
+        <div class="controller-time">
+          <span class="currentTime">01:30</span
+          ><span class="time-separator"> / </span>
+          <span class="songDuration">05:00</span>
+        </div>
+      </div>
+
+      <div class="functions">
+        <button class="btn-prev">
+          <i class="fa-solid fa-backward-step"></i>
+        </button>
+
+        <button class="btn-play btn-large">
+          <i class="fa-solid fa-play"></i>
+        </button>
+
+        <button class="btn-next">
+          <i class="fa-solid fa-forward-step"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
